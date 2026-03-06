@@ -1,0 +1,55 @@
+/* Chopper Color Palette */
+
+.bg-chopper-pink    { background-color: #f7c5c5; } 
+.bg-chopper-red     { background-color: #e8736e; } 
+.bg-chopper-brown   { background-color: #c68b5e; } 
+.bg-chopper-blue    { background-color: #b8d4f0; } 
+.bg-chopper-cream   { background-color: #fdf0dc; }
+.bg-chopper-violet  {background-color:  #632E40;}
+
+
+.text-chopper-red   { color: #e8736e; }
+.text-chopper-brown { color: #8b5e3c; }
+.text-chopper-dark  { color: #4a3728; }
+
+h1 {
+    color: #e8736e;
+}
+
+h3 {
+    color: #8b5e3c; 
+}
+
+body {
+    background-color: #fdf0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container.mt-3 {
+    flex: 1;
+}
+
+.nav-link {
+    color: #e8736e; 
+}
+
+.nav-link.active {
+    background-color: #e8736e !important; 
+    color: #fdf0f0 !important; 
+}
+
+.nav-link:hover {
+    color: #c68b5e; 
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.tab-content {
+    flex: 1;
+}
+
